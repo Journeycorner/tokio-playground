@@ -1,0 +1,14 @@
+[[package]]
+name = "futures"
+version = "0.1.24"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+
+[[package]]
+name = "tokio-playground"
+version = "0.1.0"
+dependencies = [
+ "futures 0.1.24 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[metadata]
+"checksum futures 0.1.24 (registry+https://github.com/rust-lang/crates.io-index)" = "0c84b40c7e2de99ffd70602db314a7a8c26b2b3d830e6f7f7a142a8860ab3ca4"
